@@ -363,13 +363,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-		color: #1cb495;
+		color: #5533FF;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #1cb495 !important;
+			color: #5533FF !important;
 			text-decoration: none;
 		}
 
@@ -648,7 +648,7 @@ input, select, textarea {
 			}
 
 			form .message.success {
-				color: #1cb495;
+				color: #5533FF;
 			}
 
 				form .message.success:before {
@@ -810,7 +810,7 @@ input, select, textarea {
 			-ms-animation: focus 0.1s;
 			animation: focus 0.1s;
 			background-color: rgba(255, 255, 255, 0.125);
-			border-color: #1cb495;
+			border-color: #5533FF;
 		}
 
 	select {
@@ -902,16 +902,16 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #1cb495;
-			border-color: #1cb495;
+			background: #5533FF;
+			border-color: #5533FF;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #1cb495;
-			box-shadow: 0 0 0 2px #1cb495;
+			border-color: #5533FF;
+			box-shadow: 0 0 0 2px #5533FF;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -962,7 +962,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #1cb495;
+		background-color: #5533FF;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
@@ -982,7 +982,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1fcaa7;
+			background-color: #5533FF;
 		}
 
 		input[type="submit"]:active,
@@ -990,7 +990,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #199e83;
+			background-color: #5533FF;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
