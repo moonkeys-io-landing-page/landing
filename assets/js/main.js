@@ -135,6 +135,12 @@
 					event.stopPropagation();
 					event.preventDefault();
 
+					var email = document.querySelectorAll('#email')[0].value;
+
+					if (email === "") {
+						return false;
+					}
+
 					// Hide message.
 						$message._hide();
 
