@@ -9,7 +9,7 @@
 	</head>
 	<body class="is-preload">
 			<header id="header">
-				<h1>moonkeys.io</h1>
+				<h1><span id="typed"></span></h1>
 				<p>
 					Senior developers working on your project.<br/>
 					Your first step is to contact us. <br/>
@@ -28,9 +28,25 @@
 				</ul>
 				<ul class="copyright">
 					<li>&copy; moonkeys 2019</li>
-					<li>Santiago - CL</li>
+					<li>Santiago - Chile</li>
+					<li>Santiago - Chile</li>
 				</ul>
 			</footer>
+			<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				const options = {
+					strings: ['moonkeys.io'],
+					smartBackspace: false,
+					loop: false,
+					stringsElement: null,
+					showCursor: true,
+					cursorChar: '_',
+					contentType: 'html',
+					typeSpeed: 50
+				};
+
+				var typed = new Typed("#typed", options);
+			</script>
 	</body>
 </html>
